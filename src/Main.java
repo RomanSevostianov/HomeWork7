@@ -19,7 +19,6 @@ public class Main {
         for (int p = 10; p >= 1; p--)
             System.out.print(p + " ");
 
-
         int populationSize = 12000000;
         int birthRate = 17; //рождаемость
         int mortality = 8; //смертность
@@ -60,7 +59,7 @@ System.out.println("Василию необходимо "+month+" месяцев
         for (int fr=1; fr<=31; fr++)
         {
             if (fr%friday==0)
-                System.out.println("Сегодня пятница, "+fr+" число. Необходимо отправить отчсет");
+                System.out.println("Сегодня пятница, "+fr+" число. Необходимо отправить отчет");
         }
 
         int curent=2022; // текущий год
